@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="./selectElement.js" defer></script> -->
+    <!-- <script src="./changeText.js" defer></script> -->
+    <!-- <script src="./changeStyle.js" defer></script> -->
+    <!-- <script src="./getSet.js" defer></script> -->
+    <!-- <script src="./loops.js" defer></script> -->
+    <!-- <script src="./innerHtml.js" defer></script> -->
+
+
+
+    <!-- <script src="./firstMethod.js"></script> giving error and taking much time -->
+    <!-- <script src="./firstMethod.js" async></script> giving error-->
+
+    <!-- its best to connect js file to html -->
+    <!-- <script src="./firstMethod.js" defer></script> -->
+    <!-- <script src="./WorkWithClass.js" defer></script> -->
+    <!-- <script src="AddHtmlElement.js" defer></script>
+     -->
+     <!-- <script src="cloneNodes.js" defer></script> -->
+     <!-- <script src="someOld.js" defer></script> -->
+     <!-- <script src="staticVsLiveList.js" defer></script> -->
+     <!-- <script src="./events.js" defer></script> -->
+     <!-- <script src="./thisKeyword.js" defer></script> -->
+     <!-- <script src="./keypressEvent.js" defer></script> -->
+     <!-- <script src="./mouseOverEvent.js" defer></script> -->
+     <script src="./formTodo.js" defer></script>
+
+    <title>My Website</title>
+</head>
+<body>
+    <header class ="header">
+        <nav class="nav container">
+            <h1 class="logo">Website </h1>
+                <ul class="nav-items">
+                    <li class="nav-item">
+                        <a href="#home">Home</a>
+                    </li >
+                    <li class="nav-item"><a href="">ToDo</a></li>
+                    <li class="nav-item"><a href="">Sign Up</a></li>
+                </ul>
+        </nav>
+        <div class="headline">
+            <h2 id="main-heading">Manage your tasks <span style="display:none">Hello</span></h2>
+            <button class="btn btn-headline" >Learn More</button>
+        </div>
+    </header>
+    <section class="ToDo-section container">
+        <h2>
+            your plan for today ?
+        </h2>
+
+        <form class="form-todo">
+            <input type="text" name="" id="" placeholder="Add ToDo">
+            <input type="submit" value="Add ToDo" class="btn">
+        </form>
+        <ul class="todo-list">
+            <li>
+                <span class="text">Do this </span>
+                <div class="todo-buttons">
+                    <button class="todo-btn done">
+                        Done
+                    </button>
+                    <button class="todo-btn remove">
+                        Remove
+                    </button>
+                </div>
+            </li>
+        </ul>
+    </section>
+    <section class="section-signup container" >
+        <h2> Sign Up</h2>
+        <form class="signup-form">
+            <div class="form-group">
+                <label for="username">Username</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="form-group">
+                <label for="Password">Password</label>
+                <input type="password" name="Password" id="Password">
+            </div>
+            <div class="form-group">
+                <label for="Confirm-password">Confirm-password</label>
+                <input type="password" name="Confirm-password" id="Confirm-password">
+            </div>
+            <div class="form-group">
+                <label for="Phone">Phone</label>
+                <input type="number" name="Phone" id="Phone">
+            </div>
+            <div class="form-group">
+                <label for="E-mail">E-mail</label>
+                <input type="email" name="E-mail" id="E-mail">
+            </div>
+            <div class="form-group">
+                <label for="about">about your self</label>
+               <textarea name="about" id="about" cols="20" rows="10"></textarea>
+            </div>
+            <button type="submit" class="btn signup-btn">Submit</button>
+        </form>
+    </section>
+    <!-- <script src="./firstMethod.js"></script> giving error and taking much time-->
+</body>
+</html>
